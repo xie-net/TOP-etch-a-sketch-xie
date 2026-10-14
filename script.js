@@ -14,3 +14,7 @@ for (let i = 1; i <= gridSize; i++) {
     boxes.style.width = `${boxSize}px`;
     boxes.style.height = `${boxSize}px`;
 }
+
+container.addEventListener("mouseover", (event) => {
+    event.target.classList.add("changed");
+});

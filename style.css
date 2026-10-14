@@ -14,3 +14,8 @@
     box-sizing: border-box;
 
 }
+
+.changed {
+    background-color: blue;
+    box-sizing: border-box;
+}
