@@ -6,6 +6,12 @@ createGrid(16);
 
 button.addEventListener("click", () => {
     let grid = Number(prompt('Enter the size of your grid: (ex. 16)'));
+    
+    if (grid > 100) {
+        prompt('Grid is too big :(');
+        return;
+    }
+    
     createGrid(grid);
 });
 
