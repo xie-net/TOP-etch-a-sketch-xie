@@ -6,7 +6,7 @@ New etch-a-sketch like project to demonstrate DOM manipulation with javascript
 
 Hint- you can add or change class to change the color or state of the div, change background color
 
-4. Create a button that does a pop up to ask the user for number of squares per side for new grid. existing grid removed, new grid populates.
+4. Create a button that does a pop up to ask the user for number of squares per side for new grid. existing grid removed, new grid populates.  [done]
 
 LIMIT 100
 
