@@ -3,8 +3,9 @@ const containerSize = 800;
 
 let grid = 16;
 let boxSize = containerSize / grid;
+let gridSize = grid * grid;
 
-for (let i = 1; i <= 16; i++) {
+for (let i = 1; i <= gridSize; i++) {
 
     const boxes = document.createElement("div");
     container.appendChild(boxes);
